@@ -38,16 +38,3 @@ How I organized the notebook
 Reproducibility notes
 - Set random_state for deterministic model results if you plan to reproduce the experiments.
 - Verify train/test splits and check for data leakage before using models in production (the notebook reports high accuracy; please validate).
-
-Suggested next steps (what I would do next)
-- Add requirements.txt or environment.yml for reproducibility.  
-- Add a LICENSE (e.g., MIT) if I want to share this publicly.  
-- Extract preprocessing and modeling into modular scripts and persist trained models with joblib.  
-- Build a lightweight Streamlit/Flask demo for interactive upsell suggestions.  
-- Add automated notebook runs (papermill/nbval) in CI to ensure reproducibility.
-
-Contributing
-If you want me to convert notebook sections to scripts, add a requirements.txt, create a LICENSE, or wire up CI, tell me which and I’ll prepare the changes and push them to the repo.
-
-License
-None included currently — please add a license if you want to specify reuse terms.
