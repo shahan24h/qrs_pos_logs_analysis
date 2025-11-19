@@ -4,7 +4,6 @@ This repository contains my end-to-end analysis of Quick Service Restaurant (QSR
 
 Files
 - notebook7008ceacdb.ipynb — the full, executed Jupyter notebook with data loading, EDA, dashboarding, feature engineering, model training, evaluation, and recommendations.
-- README.md — this file.
 
 Executive summary
 - Dataset: QSR POS transaction logs (Apr–Aug 2025), 10 stores, ~30 menu items.
@@ -19,7 +18,6 @@ I used standard Python data-science packages. To run locally, I recommend:
 
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl jupyterlab
 
-(You can drop these into a requirements.txt if you prefer.)
 
 Data
 During development I used the Kaggle dataset path:
@@ -32,8 +30,7 @@ How I organized the notebook
 3. Preprocessing & feature engineering (datetime features, is_combo, price & hour categories, encodings)  
 4. EDA & dashboard (revenue by store/daypart, hourly patterns, top items, combo vs individual, daily trend)  
 5. Key business insights (combo uplift, modifier usage, peak hours/stores)  
-6. ML models (RandomForest for combo prediction and order-value estimation)  
-7. Recommendations & next steps
+6. ML models (RandomForest for combo prediction and order-value estimation) 
 
 Reproducibility notes
 - Set random_state for deterministic model results if you plan to reproduce the experiments.
